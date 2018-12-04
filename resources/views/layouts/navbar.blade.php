@@ -10,7 +10,7 @@
             <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item {{ Request::is('todo/create') ? 'active' : '' }}">
-            <a class="nav-link" href="/create">Create</a>
+            <a class="nav-link" href="/todo/create">Create</a>
         </li>
         </ul>
         <form class="form-inline my-2 my-md-0">
